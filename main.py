@@ -36,9 +36,7 @@ def main() -> None:
             break   
         else:
             print("Invalid option selected!")
-    
     pass
-    
 
 
 if __name__ == "__main__":
