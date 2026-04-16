@@ -22,7 +22,7 @@ def encrypt_passwords_in_file(filename: str) -> None:
     with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerows(rows)
-    pass
+    
 
 def change_password(filename: str, website: str, password: str) -> bool:
     with open(filename, "w", newline="") as f:
